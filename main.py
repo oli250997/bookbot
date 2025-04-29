@@ -17,7 +17,7 @@ def main():
     dict = get_char_count(file_content)
     list = analyse(dict)
     print("============ BOOKBOT ============")
-    print(f"Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {filepath}...")
     print("----------- Word Count ----------")
     print(f"Found {count} total words")
     print("--------- Character Count -------")
